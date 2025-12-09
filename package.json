@@ -1,9 +1,8 @@
 {
   "name": "n8n-railway",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "n8n"
+    "start": "npx n8n start --tunnel"
   },
   "dependencies": {
     "n8n": "^1.0.0"
